@@ -1,0 +1,33 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Coin Determiner</title>
+
+    <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+</head>
+<body>
+
+    <div id="wrap">
+        <div class="container">
+            <div class="page-header">
+                  <div>
+                    <ul class="pull-right">
+                      <a href="/">Home</a>
+                    </ul>
+                    <h3 class="muted">Coin Determiner</h3>
+                  </div>
+            </div>
+
+            {% block content %}
+            {% endblock %}
+
+        </div> <!-- /container -->
+    </div>
+
+</body>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+</html>
